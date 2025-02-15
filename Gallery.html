@@ -18,52 +18,49 @@
 <body class="w3-container w3-theme-l1">
 
 <!--BUSINESS INFO HEADER-->
-<header>
-<img src="Logo Banner Cropped-01.png" style="width:100%" alt="Logo">
-</header>
-
-<!--NAVIGATION BANNER-->
-<nav class="w3-bar w3-theme-d2">
-<a href="Home.html">
-  <button class="w3-bar-item w3-button w3-ripple" style="font-size:2.5vw">Home</button>
-</a>
-<a href="Booking.html">
-  <button class="w3-bar-item w3-button w3-ripple"style="font-size:2.5vw">Booking</button>
-</a>
-<button class="w3-bar-item w3-button w3-ripple "style="font-size:2.5vw">About</button>
-<a href="Gallery.html">
-<button class="w3-bar-item w3-button w3-ripple "style="font-size:2.5vw">Gallery</button>
-</a>
-<button class="w3-bar-item w3-button w3-ripple "style="font-size:2.5vw">FAQ and Policies</button>
-<button class="w3-bar-item w3-button w3-ripple "style="font-size:2.5vw">Articles</button>
-<button class="w3-bar-item w3-button w3-ripple "style="font-size:2.5vw">Contact</button>
-</nav>
-
-<!--CONSTRUCTION BANNER-->
-<div class="w3-panel w3-display-container w3-yellow">
-  <span onclick="this.parentElement.style.display='none'"
-  class="w3-button w3-display-topright">X</span>
-  <h4>Site Under Construction</h4>
-  <p>Some pages or features may not work at this time, booking is available!</p>
-</div>
+<header class="w3-center w3-theme" style="background-image: url(business-card-back-png-compressed-1.png)">
+  <img src="Logo Banner Cropped-01.png" class="w3-image" style="max-height: 180px; max-width=673px;" alt="JB Grooming, LLC">
+  </header>
+  
+  <!--NAVIGATION BANNER-->
+  <div class="w3-center w3-theme-d2">
+  <nav class="w3-bar w3-theme-d2">
+    <a href="Home.html">
+      <button class="w3-bar-item w3-button w3-ripple" style="font-size: large">Home</button>
+    </a>
+    <a href="Booking.html">
+      <button class="w3-bar-item w3-button w3-ripple"style="font-size: large">Booking</button>
+    </a>
+    <button class="w3-bar-item w3-button w3-ripple "style="font-size: large">About</button>
+    <a href="Gallery.html">
+    <button class="w3-bar-item w3-button w3-ripple "style="font-size: large">Gallery</button>
+    </a>
+    <button class="w3-bar-item w3-button w3-ripple "style="font-size: large">FAQ and Policies</button>
+    <button class="w3-bar-item w3-button w3-ripple "style="font-size: large">Articles</button>
+    <button class="w3-bar-item w3-button w3-ripple "style="font-size: large">Contact</button>
+  </nav>
+  </div>
+  
+  <!--CONSTRUCTION BANNER-->
+  <div class="w3-panel w3-display-container w3-yellow">
+    <span onclick="this.parentElement.style.display='none'"
+    class="w3-button w3-display-topright">X</span>
+    <h4>Site Under Construction</h4>
+    <p>Some pages or features may not work at this time, booking is available!</p>
+  </div>
 
 <style>
 .mySlides {display:none;}
 </style>
 
-<div class="w3-container w3-theme-d1">
-    <p style="font-size:2vw">
-        Click through the image gallery below to see some grooms from the past year
-    </p>
-</div>
-
 <div>
-<button class="w3-button w3-theme-d3 w3-half" onclick="plusDivs(-1)">&#10094;</button>
-<button class="w3-button w3-theme-d3 w3-half" onclick="plusDivs(1)">&#10095;</button>
-<img class="mySlides" src="IMG_2584.jpg" style="max-height:800px">
-<img class="mySlides" src="IMG_2670.jpg" style="max-height:800px">
-<img class="mySlides" src="IMG_3473.jpg" style="max-height:800px">
-<img class="mySlides" src="IMG_3556.jpg" style="max-height:800px">
+  <button class="w3-button w3-theme-d3 w3-half" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-theme-d3 w3-half" onclick="plusDivs(1)">&#10095;</button>
+  
+  <img class="mySlides w3-content" src="IMG_2584.jpg" style="max-height:600px">
+  <img class="mySlides w3-content" src="IMG_2670.jpg" style="max-height:600px">
+  <img class="mySlides w3-content" src="IMG_3473.jpg" style="max-height:600px">
+  <img class="mySlides w3-content" src="IMG_3556.jpg" style="max-height:600px">
 </div>
 
 <script>
@@ -85,6 +82,16 @@
       x[slideIndex-1].style.display = "block";  
     }
 </script>
+<br>
 
+<footer class="w3-container w3-theme-d1 ">
+  <p> Customer Support/Booking: <a href="tel:5303644433">(530) 364-4433</a> | Business: <a href="mailto:benjamin@JBGroomingLLC.com">benjamin@JBGroomingLLC.com</a>
+  <br> © 2024 JB Grooming, LLC | 3907 Missouri Flat Rd, STE B, Placerville, CA 95667
+  </p>
+  
+  
+</footer>
+
+<br>
 </body>
 </html> 
